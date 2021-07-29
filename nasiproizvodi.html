@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Nasi Proizvodi</title>
+
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#tabs" ).tabs();
+  } );
+  </script>
+</head>
+<body>
+   <div id="divHeaderTabs">
+     <div id="tabs">
+         <ul>
+           <li><a href="#tabs-1">Kulen</a></li>
+           <li><a href="#tabs-2">Kobasica</a></li>
+           <li><a href="#tabs-3">Kulenova Seka</a></li>
+         </ul>
+        <div id="tabs-1">
+           <img src="images/kobasica.jpg" />
+        </div>
+        <div id="tabs-2">
+            <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie </p>
+        </div>
+        <div id="tabs-3">
+            <p> Fusce in lacus. Vivamus a libero vitae  hendrerit hendrerit.</p>
+        </div>
+     </div>
+  </div>
+  <div id="divHeaderPhp">
+        <form id="obrazac1" method="get" action="">
+          <p>
+            <label for="txt1">Ime i prezime</label>
+            <input id="txt1" name="txt1" type="text" value="" >
+          </p>
+          <p>
+            <label for="txt2">Email</label>
+            <input id="txt2" name="txt2" type="text" value="">
+          </p>
+          <p>
+            <label for="smjer">Odaberite Proizvod</label>
+            <select id="proizvod" name="proizvod">
+              <option>Kobasica</option>
+              <option>Kulen</option>
+              <option>Šunka</option>
+              <option>Slanina</option>
+              <option>Čvarci</option>
+            </select>
+          </p>
+          <p>
+            <h3>Odaberite Način Dostave</h3>
+            <label><input id="dostava1" name="dostava" type="radio" value="gotovina"> Gotovinsko plaćanje</label>
+            <label><input id="dostava2" name="dostava" type="radio" value="kartica">Kartično plaćanje</label>
+          </p>
+          
+          <p>
+            <label for="napomena">Napomena</label>
+            <textarea id="napomena" name="napomena"></textarea>
+          </p>
+          <p><input type="submit" name="spremi" id="spremi" value="Spremi"><input type="reset" name="obrisi" id="obrisi" value="Obriši"></p>
+        </form>
+  </div>
+
+
+</body>
+</html>

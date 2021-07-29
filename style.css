@@ -1,0 +1,276 @@
+body, p, h1, h2, h3, h4, ul, li {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Arial;
+	font-size: 15px;
+}
+* {
+  box-sizing: border-box;
+}
+#divTopBarWrap {
+	background-color:#21460d;
+	color:#21460d;
+}
+#divTopBar, #divMainMenu, #divHeader, #divContentSection1, #divContentSection2, #divContentSection3, #divFooter {
+	width: 1200px;
+	margin: 0 auto;
+}
+#divTopBar p {
+	padding: 15px 0;
+}
+#divTopBarCol1 {
+	float: left;
+	width: 50%;
+}
+#divTopBarCol2 {
+	float: right;
+	width: 50%;
+	text-align: right;
+}
+#divMainMenuWrap {
+	background-color:#21460d;
+	color: #ffffff;
+}
+#divMainMenuCol1 {
+	float: left;
+	width: 35%;
+}
+#divMainMenuCol1 h2 {
+	font-size: 32px;
+	text-transform: uppercase;
+	padding: 30px 0 20px 0;
+}
+#divMainMenuCol2 {
+	float: right;
+	width: 65%;
+}
+.mainMenu1, .mainMenu1 li ul {
+	list-style-type: none;
+}
+.mainMenu1 > li {
+	float: left;
+	position: relative;
+}
+.mainMenu1 li a {
+	display: block;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 35px 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.mainMenu1 li a:hover {
+	background-color: #21460d;
+}
+.mainMenu1 li ul {
+	position: absolute;
+	top: 88px;
+	background-color: #21460d;
+	display: none;
+}
+.mainMenu1 li:hover ul {
+	display: block;
+}
+.mainMenu1 li ul li a {
+	padding: 20px;
+	width: 200px;
+}
+#divHeaderWrap {
+	background-image: url('images/slavonskasuma1.jpg');
+	background-size: cover;
+	color: #ffffff;
+	background-position: center bottom;
+}
+#divHeader h1 {
+	font-size: 36px;
+	text-align: center;
+	padding-top: 150px;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+}
+#divHeader p {
+	font-size: 20px;
+	text-align: center;
+	line-height: 26px;
+	padding-bottom: 80px;
+}
+#divHeader .divHeaderButtons {
+	width: 60%;
+	margin: 0 auto;
+	padding-bottom: 150px;
+	text-align: center;
+}
+#divHeader .divHeaderButtons a {
+	display: inline-block;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 20px 45px;
+	margin: 0 20px;
+	background-color: #FF3F4A;
+	border: solid 2px #ffffff;
+}
+#divHeader .divHeaderButtons a:hover {
+	background-color: transparent;
+}
+#divContentSection1Wrap {
+	background-color: #f4f4f4;
+	color: #474747;
+}
+#divContentSection1 {
+	padding: 50px 0;
+}
+/* grid CSS styles */
+.gridCol3 {
+	width: 32%;
+	float: left;
+	margin-right: 2%;
+}
+.gridCol4 {
+	width: 23.5%;
+	float: left;
+	margin-right: 2%;
+}
+.gridLastItem {
+	margin-right: 0 !important;
+}
+.listBoxStyle1 {
+	list-style-type: none;
+}
+.listBoxStyle1 li {
+	padding: 50px 30px;
+	background-color: #ffffff;
+	margin-top: -100px;
+	text-align: center;
+}
+.listBoxStyle1 li h2 {
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.listBoxStyle1 li p {
+	font-size: 17px;
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+.listBoxStyle1 li a, #divContentSection3 div a {
+	color: #ffffff;
+	background-color: #FF3F4A;
+	padding: 10px 20px;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.listBoxStyle1 .listBoxStyle1Featured, .listBoxStyle1 li:hover {
+	color: #FFFFFF;
+    background-color: #1C1D21;
+}
+#divContentSection2, #divContentSection3, #divFooter {
+	padding: 50px 0;
+}
+.SectionTitle1 {
+	color: #474747;
+	font-size: 32px;
+	text-align: center;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+}
+#divContentSection2 div h2, #divContentSection3 div h2 {
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+#divContentSection2 div p, #divContentSection3 div p {
+	font-size: 17px;
+	line-height: 24px;
+	margin-bottom: 40px;
+	text-align: justify;
+}
+.sectionButton1 {
+	clear: both;
+	padding: 20px 0;
+	text-align: center;
+}
+.sectionButton1 a {
+	display: inline-block;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 20px 45px;
+	background-color: #FF3F4A;
+	font-size: 20px;
+	font-weight: bold;
+}
+#divContentSection3 div img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+#divFooterWrap {
+	background-color: #27282E;
+	color: #FFFFFF;
+}
+#divFooter div h3 {
+	font-size: 22px;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+#divFooter div ul {
+	list-style-type: none;
+}
+#divFooter div ul li {
+	font-size: 17px;
+	margin-bottom: 12px;
+}
+#divFooter .footerLinks li {
+	padding-bottom: 8px;
+	border-bottom: solid 1px rgba(255,255,255,.1);
+}
+#divFooter .footerLinks li a {
+	color: #FF3F4A;
+	text-decoration: none;
+}
+#divFooter .footerGallery li img {
+	width: 100%;
+}
+
+  #divContentFlex {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#divContentFlex {
+	padding: 50px 0;
+}
+
+.SectionTitle1 {
+	color: #474747;
+	font-size: 32px;
+	text-align: center;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+}
+
+#divContentSection2 div h2, #divContentSection3 div h2 {
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+#divContentSection2 div p, #divContentSection3 div p {
+	font-size: 17px;
+	line-height: 24px;
+	margin-bottom: 40px;
+	text-align: justify;
+}
+
+#divHeaderTabs{
+	background-color: #3d9427;
+}
+
+#divHeaderPhp{
+	background-color: #a5c5ae ;
+}

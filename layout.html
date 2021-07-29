@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta charset="utf-8">
+	<title>Crna Slavonska Svinja</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		#divMainContent {
+			width: 1200px;
+			margin: 0 auto;
+			padding: 20px;
+			background-color: green;
+		}
+		#divMainContentTop {
+			padding: 20px;
+			background-color: yellow;
+			border: solid 1px #000000;
+			margin-bottom: 20px;
+		}
+		#divMainContentBottom, #divMainContentBottom2 {
+			padding: 30px;
+			background-color: pink;
+			border: solid 1px #000000;
+			margin-bottom: 20px;
+		}
+		#divBox1 {
+			float: left;
+		}
+		#divBox2 {
+			float: right;
+		}
+		.divBoxContent1 {
+			width: 400px;
+			height: 250px;
+			background-color: red;
+			border: solid 1px #000000;
+			padding: 15px;
+		}
+		.lastItem {
+			margin-right: 0 !important;
+		}
+		#divMainContentBottom .lastItem {
+			margin-right: 0;
+		}
+		.divBoxContent2.lastItem, .divBoxContent3.lastItem {
+			margin-right: 0;
+		}
+		.divBoxContent2 {
+			width: 32%;
+			height: 350px;
+			background-color: blue;
+			margin-right: 2%;
+			/*border: solid 1px #000000;
+			padding: 15px;*/
+			float: left;
+		}
+
+		#divFooter {
+			background-color: #c3c3c3;
+			padding: 30px;
+			position: relative;
+		}
+		#divFooterBox1 {
+			width: 300px;
+			height: 350px;
+			background-color: red;
+			padding: 20px;
+			position: absolute;
+			top: 20px;
+			left: 30px;
+			z-index: 2;
+		}
+		#divFooterBox2 {
+			width: 300px;
+			height: 350px;
+			background-color: blue;
+			padding: 20px;
+			position: absolute;
+			top: 40px;
+			left: 60px;
+			z-index: 1;
+		}
+	</style>
+
+</head>
+ 
+<body>
+   <div id="divMainContent">
+   	  <div id ="divMainContentTop">
+   	  	  <div id="divBox1" class="divBoxContent1">
+   	  	  	  <h2>Ovo je jedan naslov</h2>
+   	  	  </div>
+   	  	  <div id="divBox2" class="divBoxContent2">
+   	  	  	   <h2>Ovo je drugi naslov</h2>
+   	  	  </div>
+   	  	  <div style="clear: both;"></div>
+   	  </div>
+   	  
+   	  <div id="divMainContentBottom">
+   	  	        <div class="divBoxContent2">
+   	  	     	      <p>ovo je prvo box</p>
+   	  	        </div>
+   	     	
+   	     	    <div class="divBoxContent2">
+   	    	     	<p>ovo je drugi box</p>
+   	  	        </div>
+   	  	
+   	  	        <div class="divBoxContent2 lastItem">
+   	  	  	        <p>ovo je treći box</p>
+   	  	        </div>
+   	  	     <div style="clear: both;"></div>
+       <div>
+
+       <div id="divFooter">
+			<div id="divFooterBox1">
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+			</div>
+			<div id="divFooterBox2">
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+			</div>
+		</div><!-- end #divFooter -->
+ </div>
+</body>
+</html>
