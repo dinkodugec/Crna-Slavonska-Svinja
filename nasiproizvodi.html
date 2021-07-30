@@ -16,6 +16,19 @@
   </script>
 </head>
 <body>
+
+  <?php 
+     if(isset($_GET['spremi'])){
+        echo '<pre>';
+          print_r($_GET);
+        echo '</pre>';
+     $ime = $_GET['txt1'];
+     $email = $_GET['txt2'];
+     $proizvod = $_GET['proizvod'];
+     $dostava = $_GET['dostava'];
+     $napomena = $_GET['napomena'];
+     }
+    ?>
    <div id="divHeaderTabs">
      <div id="tabs">
          <ul>
@@ -55,9 +68,9 @@
             </select>
           </p>
           <p>
-            <h3>Odaberite Način Dostave</h3>
-            <label><input id="dostava1" name="dostava" type="radio" value="gotovina"> Gotovinsko plaćanje</label>
-            <label><input id="dostava2" name="dostava" type="radio" value="kartica">Kartično plaćanje</label>
+            <h3>Odaberite Način Plaćanja</h3>
+            <label><input id="placanje1" name="placanje" type="radio" value="gotovina"> Gotovinsko plaćanje</label>
+            <label><input id="placanje2" name="placanje" type="radio" value="kartica">Kartično plaćanje</label>
           </p>
           
           <p>
