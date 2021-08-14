@@ -125,8 +125,12 @@
 	</div><!-- end #divContentSection2Wrap -->
 	<div id="divContentSection3Wrap">
 		<div id="divContentSection3">
-			<h1 class="SectionTitle1">Proizvod </h1>
+			<h1 class="SectionTitle1">Vijest </h1>
 			<?php 
+				
+				if(isset($_GET['proizvodid'])){
+					$idOdabraniProizvod = $_GET['proizvodid'];
+				}
 				$servername = "localhost";
 				$username = "root";
 				$password = "";
@@ -138,28 +142,23 @@
 				if ($conn->connect_error) {
 				  die("Connection failed: " . $conn->connect_error);
 				}
-				
-
-				//Insert into  proizvod
+				//Edit proizvod
 				if(isset($_POST['spremi'])){
-							$ime = $_POST['txt1'];
-							$email = $_POST['txt2'];
-							$proizvod = $_POST['txt3'];
-							
-
-							$sql = "INSERT INTO proizvod (ime_kupca,email_kupca,proizvod)
-							VALUES ('$ime', '$email', '$proizvod')"; //moramo staviti jednostruke navodnike zbog SQL-a, sa strane PHP ne treba jer unutar duplih navodnika nam ispiše vrijednost varijable.
-							if ($conn->query($sql) === TRUE) {
-							  echo "New record created successfully";
-							} else {
-							  echo "Error: " . $sql . "<br>" . $conn->error;
-							}
-							$conn->close();
-						}
+					$ime = $_POST['txt1'];
+					$email = $_POST['txt2'];
+					$proizvod = $_POST['txt3'];
+					$sql = "UPDATE proizvod SET ime_kupca='$ime', email_kupca='$email', proizvod='$proizvod' WHERE id_proizvod = $idOdabraniProizvod";
+					//moramo staviti jednostruke navodnike zbog SQL-a, sa strane PHP ne treba jer unutar duplih navodnika nam ispiše vrijednost varijable.
+					if ($conn->query($sql) === TRUE) {
+					  echo "New record created successfully";
+					} else {
+					  echo "Error: " . $sql . "<br>" . $conn->error;
+					}
+				}
 
 						
 				//Select polaznik
-				$sql2 = "SELECT id_proizvod, ime_kupca, email_kupca, proizvod FROM proizvod WHERE id_proizvod = $idOdabraniProizvod";
+				$sql2 = "SELECT id_proizvod, ime_kupca, email_kupca, proizvod FROM proizvod WHERE id_proizvod= $idOdabraniProizvod";
 				$result = $conn->query($sql2);
 				while($row=$result->fetch_assoc()):
 			 ?> 
@@ -167,7 +166,7 @@
 				    <img src="https://via.placeholder.com/350">
 				    <h2><?php echo $row['ime_kupca']; ?></h2>
 				    <p><?php echo $row['proizvod']; ?></p>
-				     <a href="vijest.php?proizvodid=<?php echo $row['id_proizvod']; ?>">Pročitajte više</a>
+				     <a href="index.php">Povratak</a>
 			        </div>
 			        <?php 
 			         endwhile
@@ -175,7 +174,7 @@
 			         ?>
 			        <div style="clear: both;"></div>
 		    
-		    	<div id="divEditProizvod">
+		    	<div id="divInsertProizvod">
 				<form id="obrazac1" method="post" action="">
 					<p>
 						<label for="txt1">Ime i prezime</label>
