@@ -274,3 +274,37 @@ body {
 #divHeaderPhp{
 	background-color: #a5c5ae ;
 }
+
+#divContentSunkaWrap{
+	padding: 20px;
+	background-color: #000000;
+	border: solid 1px #000000;
+	margin-bottom: 20px; ;
+  }
+
+#divBoxSunka1{
+	float: left;
+}
+
+ #divBoxSunka2{
+ 	float: right;
+ }
+
+.divSunkaContent1 {
+			width: 500px;
+			height: 500px;
+			background-image: url('images/sunka1.jpg');
+			border: solid 1px #000000;
+			padding: 15px;
+			margin-left: 200px;
+		}
+
+
+	.divSunkaContent2 {
+			width: 32%;
+			height: 350px;
+			background-color: blue;
+			margin-right: 2%;
+			/*border: solid 1px #000000;
+			padding: 15px;*/
+		}

@@ -123,15 +123,77 @@
 			</div>
 		</div>
 	</div><!-- end #divContentSection2Wrap -->
-	<div id="divContentSunkaWrap">
-		<div id="divBoxSunka1" class="divSunkaContent1">
-			
+	<div id="divContentSection3Wrap">
+		<div id="divContentSection3">
+			<h1 class="SectionTitle1">Proizvod </h1>
+			<?php 
+				$servername = "localhost";
+				$username = "root";
+				$password = "";
+				$dbname = "ljeto2021";
+
+				// Create connection
+				$conn = new mysqli($servername, $username, $password, $dbname);
+				// Check connection
+				if ($conn->connect_error) {
+				  die("Connection failed: " . $conn->connect_error);
+				}
+				
+
+				//Insert into  proizvod
+				if(isset($_POST['spremi'])){
+							$ime = $_POST['txt1'];
+							$email = $_POST['txt2'];
+							$proizvod = $_POST['txt3'];
+							
+
+							$sql = "INSERT INTO proizvod (ime_kupca,email_kupca,proizvod)
+							VALUES ('$ime', '$email', '$proizvod')"; //moramo staviti jednostruke navodnike zbog SQL-a, sa strane PHP ne treba jer unutar duplih navodnika nam ispiše vrijednost varijable.
+							if ($conn->query($sql) === TRUE) {
+							  echo "New record created successfully";
+							} else {
+							  echo "Error: " . $sql . "<br>" . $conn->error;
+							}
+							$conn->close();
+						}
+
+						
+				//Select polaznik
+				$sql2 = "SELECT id_proizvod, ime_kupca, email_kupca, proizvod FROM proizvod WHERE id_proizvod = $idOdabraniProizvod";
+				$result = $conn->query($sql2);
+				while($row=$result->fetch_assoc()):
+			 ?> 
+			 	    <div class="gridCol3 <?php echo 'gridLastItem'; ?>">
+				    <img src="https://via.placeholder.com/350">
+				    <h2><?php echo $row['ime_kupca']; ?></h2>
+				    <p><?php echo $row['proizvod']; ?></p>
+				     <a href="vijest.php?proizvodid=<?php echo $row['id_proizvod']; ?>">Pročitajte više</a>
+			        </div>
+			        <?php 
+			         endwhile
+			         $conn->close();
+			         ?>
+			        <div style="clear: both;"></div>
+		    
+		    	<div id="divEditProizvod">
+				<form id="obrazac1" method="post" action="">
+					<p>
+						<label for="txt1">Ime i prezime</label>
+						<input id="txt1" name="txt1" type="text" value="<?php echo $proizvod['ime_kupca']; ?>" onfocus="if(this.value != '') this.value = ''">
+					</p>
+					<p>
+						<label for="txt2">Email</label>
+						<input id="txt2" name="txt2" type="text" value="<?php echo $proizvod['email_kupca']; ?>">
+					</p>
+					<p>
+						<label for="txt3">Proizvod</label>
+						<input id="txt3" name="txt3" type="text" value="<?php echo $proizvod['proizvod']; ?>">
+					</p>
+					<p><input type="submit" name="spremi" id="spremi" value="Spremi"><input type="reset" name="obrisi" id="obrisi" value="Obriši"></p>
+				</form>
+			</div>
 		</div>
-		<div id="divBoxSunka2" class="divSunkaContent2">
-			
-		</div>
-		 <div style="clear: both;"></div>
-	</div><!-- end #divContentSunkaWrap -->
+	</div><!-- end #divContentSection3Wrap -->
 
 </body>
 </html>
