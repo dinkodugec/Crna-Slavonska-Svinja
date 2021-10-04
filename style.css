@@ -30,7 +30,7 @@ body {
 	text-align: right;
 }
 #divMainMenuWrap {
-	background-color:#21460d;
+	background-color: #000000;
 	color: #ffffff;
 }
 #divMainMenuCol1 {
@@ -78,7 +78,8 @@ body {
 	width: 200px;
 }
 #divHeaderWrap {
-	background-image: url('images/slavonskasuma1.jpg');
+	background-image: url('images/suma.jpeg');
+	 height:800px;
 	background-size: cover;
 	color: #ffffff;
 	background-position: center bottom;
@@ -314,4 +315,35 @@ body {
 			font-size: 120px;
 			font-style: oblique;
 			color: white;
+		}
+
+		#divContentSectionFlex{
+			background-color: #000000 ;
+		}
+
+		#divContentVijestWrap{
+			padding: 20px;
+	    background-color: #000000;
+	    border: solid 1px #000000;
+    	margin-bottom: 20px; ;
+  }
+		
+		.divBoxVijest {
+			width: 32%;
+			height: 350px;
+			background-color: blue;
+			margin-right: 2%;
+			/*border: solid 1px #000000;
+			padding: 15px;*/
+			float: left;
+		}
+
+		.lastItem {
+			margin-right: 0 !important;
+		}
+		#divContentVijestWrap .lastItem {
+			margin-right: 0;
+		}
+		.divBoxContent2.lastItem,  {
+			margin-right: 0;
 		}

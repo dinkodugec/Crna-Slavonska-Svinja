@@ -96,24 +96,24 @@
 	</div><!-- end #divContentSection1Wrap -->
 	<div id="divContentSectionFlex">
 		<div id="divContentFlex">
-			<h1 class="SectionTitle1">jQuery Flexslider</h1>
+			<h1 class="SectionTitle1"></h1>
 			<div id="mojFlexslider">
 				<div class="flexslider">
 				  <ul class="slides">
 				    <li>
-				      <img src="images/slika6.jpg" />
+				      <img src="images/bundeve.jpg" />
 				    </li>
 				    <li>
-				      <img src="images/slika6.jpg" />
+				      <img src="images/bundeve2.jpg" />
 				    </li>
 				    <li>
-				      <img src="images/slika2.jpeg" />
+				      <img src="images/stol.jpeg" />
 				    </li>
 				    <li>
-				      <img src="images/slika1.jpg" />
+				      <img src="images/kobasica.jpg" />
 				    </li>
 				    <li>
-				      <img src="images/njuška.jpg" />
+				      <img src="images/susenje.jpg" />
 				    </li>
 				    <li>
 				      <img src="images/slika6.jpg" />
@@ -128,10 +128,25 @@
 			
 		</div>
 		<div id="divBoxSunka2" class="divSunkaContent2">
-			<h3>Kupimo domaće</h3>
+			<h3>Kupujmo domaće</h3>
 		</div>
 		 <div style="clear: both;"></div>
 	</div><!-- end #divContentSunkaWrap -->
+
+	<div id="divContentVijestWrap">
+		<div class="divBoxVijest">
+   	       <p>ovo je prvo box</p>
+   	    </div>
+   	     	
+   	     <div class="divBoxVijest">
+   	    	 <p>ovo je drugi box</p>
+   	  	 </div>
+   	  	
+   	  	 <div class="divBoxVijest lastItem">
+   	  	    <p>ovo je treći box</p>
+   	     </div>
+   	  	     <div style="clear: both;"></div>
+	</div><!-- end #divContentVijestWrap -->
 
 </body>
 </html>
