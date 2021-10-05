@@ -331,12 +331,13 @@ body {
 		.divBoxVijest {
 			width: 32%;
 			height: 350px;
-			background-color: blue;
+			background-image: url('images/slanaina1brushtool.jpg');
+			background-position: center;
 			margin-right: 2%;
 			/*border: solid 1px #000000;
 			padding: 15px;*/
 			float: left;
-		}
+		}  
 
 		.lastItem {
 			margin-right: 0 !important;
@@ -347,3 +348,22 @@ body {
 		.divBoxContent2.lastItem,  {
 			margin-right: 0;
 		}
+
+	  .divVijestButtons {
+     	width: 60%;
+	    margin: 0 auto;
+	    padding-bottom: 150px;
+    	text-align: center;
+}
+    .divVijestButtons a {
+	     display: inline-block;
+     	color: #ffffff;
+	    text-decoration: none;
+    	text-transform: uppercase;
+    	padding: 20px 45px;
+    	margin: 0 20px;
+    	background-color: #FF3F4A;
+     	border: solid 2px #ffffff;
+   }
+
+ 

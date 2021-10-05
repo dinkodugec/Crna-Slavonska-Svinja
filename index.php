@@ -58,7 +58,7 @@
 						</ul>
 					</li>
 					<li><a href="#">Partneri</a></li>
-					<li><a href="#">O nama</a></li>
+					<li><a href="#">O Udruzi</a></li>
 					<li><a href="#">Kontakt</a></li>
 				</ul>
 			</div>
@@ -107,7 +107,7 @@
 				      <img src="images/bundeve2.jpg" />
 				    </li>
 				    <li>
-				      <img src="images/stol.jpeg" />
+				      <img src="images/stol.jpg" />
 				    </li>
 				    <li>
 				      <img src="images/kobasica.jpg" />
@@ -115,9 +115,9 @@
 				    <li>
 				      <img src="images/susenje.jpg" />
 				    </li>
-				    <li>
-				      <img src="images/slika6.jpg" />
-				    </li>
+				    <!-- <li>
+				      <img src="images/bsvinje8.jpg" />
+				    </li> -->
 				  </ul>
 				</div>
 			</div>
@@ -135,18 +135,32 @@
 
 	<div id="divContentVijestWrap">
 		<div class="divBoxVijest">
-   	       <p>ovo je prvo box</p>
-   	    </div>
+   	       <div class="divVijestButtons">
+				<!-- <a href="#">Pročitajte više</a> -->
+				
+				<a href="nasiproizvodi.html">Pročitajte</a>
+			</div>
+   	     </div> 
    	     	
    	     <div class="divBoxVijest">
-   	    	 <p>ovo je drugi box</p>
+   	    	 <div class="divVijestButtons">
+				<!-- <a href="#">Pročitajte više</a> -->
+				<a href="nasiproizvodi.html">Pročitajte</a>
+			</div>
    	  	 </div>
    	  	
    	  	 <div class="divBoxVijest lastItem">
-   	  	    <p>ovo je treći box</p>
+   	  	    <div class="divVijestButtons">
+				 <div class="divNaslov">
+                      <h2>Odrzano</h2>
+
+				 	</div>
+            	<a href="nasiproizvodi.html">Pročitajte</a>
+			</div>
    	     </div>
    	  	     <div style="clear: both;"></div>
+   	   </div>
 	</div><!-- end #divContentVijestWrap -->
-
+     
 </body>
 </html>
