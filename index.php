@@ -67,7 +67,7 @@
 	</div><!-- end #divMainMenuWrap -->
 	<div id="divHeaderWrap">
 		<div id="divHeader">
-			<h1>Fajferica - Crno Zlato Slavonije</h1>
+			<h1>Kad su stari svinje žirovali</h1>
 			<p>Nekada davno u Slavoniji... i danas!!!</p>
 			<div class="divHeaderButtons">
 				<!-- <a href="#">Pročitajte više</a> -->
@@ -136,31 +136,83 @@
 	<div id="divContentVijestWrap">
 		<div class="divBoxVijest">
    	       <div class="divVijestButtons">
-				<!-- <a href="#">Pročitajte više</a> -->
-				
-				<a href="nasiproizvodi.html">Pročitajte</a>
-			</div>
+   	       	<a href="nasiproizvodi.html">Pročitajte</a>
+			<h6>Udruga izdala "Priručnik za uzgajivače crne slavonske svinje"</h6>	
+		  </div>
    	     </div> 
    	     	
    	     <div class="divBoxVijest">
    	    	 <div class="divVijestButtons">
-				<!-- <a href="#">Pročitajte više</a> -->
-				<a href="nasiproizvodi.html">Pročitajte</a>
-			</div>
+   	    	 	<a href="nasiproizvodi.html">Pročitajte</a>
+		         <h6>Zaštita izvornosti mesa Crne Slavonske Svinje</h6>
+		     </div>
    	  	 </div>
    	  	
    	  	 <div class="divBoxVijest lastItem">
    	  	    <div class="divVijestButtons">
-				 <div class="divNaslov">
-                      <h2>Odrzano</h2>
+				 <a href="nasiproizvodi.html">Pročitajte</a>
+            	 <div class="divNaslov">
+                      <h6>Održan prvi "Fajferica Gastro Show"</h6>
 
 				 	</div>
-            	<a href="nasiproizvodi.html">Pročitajte</a>
 			</div>
    	     </div>
    	  	     <div style="clear: both;"></div>
    	   </div>
 	</div><!-- end #divContentVijestWrap -->
+
+	<div id="divFooterWrap">
+		<div id="divFooter">
+			<div class="gridCol4">
+				<h3>Kontakt</h3>
+				<ul>
+					<li>Predsjednik</li>
+					<li>Dominik Knežević</li>
+					<li>Viljevo</li>
+					<li>099 687 09 20</li>
+					<li>fajferica@fajferica.hr</li>
+					
+				</ul>
+			</div>
+			<div class="gridCol4">
+				<h3>Sjedište Udruge</h3>
+				<ul>
+					<li>Vladimira Nazora 1</li>
+					<li>31400 Đakovo</li>
+					<li>tel: +385 (0) 31 815 019</li>
+					<li>fax: +385 (0) 31 815 024</li>
+					<li>OIB:26009987828</li>
+					
+				</ul>
+			</div>
+			<div class="gridCol4">
+				<h3>Važne Povezice</h3>
+				<ul class="footerLinks">
+					<li><a href="#">Hrvatska agencija za poljoprivredu i hranu</a></li>
+					<li><a href="#">Ministarstvo poljoprivrede1</a></li>
+					<li><a href="#">Program Ruralnog Razvoja</a></li>
+					<li><a href="#">Fakultet agrobitehničkih znanosti Osijek</a></li>
+					<!-- <li><a href="#">Stavka podnožja 1</a></li>
+					<li><a href="#">Stavka podnožja 1</a></li> -->
+				</ul>
+			</div>
+			<div class="gridCol4 gridLastItem">
+				<h3>Podnožje Stupac</h3>
+				<ul class="footerGallery">
+					<li class="gridCol3"><img src="https://via.placeholder.com/150"></li>
+					<li class="gridCol3"><img src="https://via.placeholder.com/150"></li>
+					<li class="gridCol3 gridLastItem"><img src="https://via.placeholder.com/150"></li>
+					<li class="gridCol3"><img src="https://via.placeholder.com/150"></li>
+					<li class="gridCol3"><img src="https://via.placeholder.com/150"></li>
+					<li class="gridCol3 gridLastItem"><img src="https://via.placeholder.com/150"></li>
+					<li class="gridCol3"><img src="https://via.placeholder.com/150"></li>
+					<li class="gridCol3"><img src="https://via.placeholder.com/150"></li>
+					<li class="gridCol3 gridLastItem"><img src="https://via.placeholder.com/150"></li>
+				</ul>
+			</div>
+			<div style="clear: both;"></div>
+		</div>
+	</div><!-- end #divFooterWrap -->
      
 </body>
 </html>

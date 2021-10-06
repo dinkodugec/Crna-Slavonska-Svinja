@@ -366,4 +366,44 @@ body {
      	border: solid 2px #ffffff;
    }
 
+   h6{
+      text-align: center ;
+       font-size: 30px;
+       color:  #FF3F4A ;
+   }
+
+#divFooter .footerGallery li img {
+	width: 100%;
+
+}
  
+ #divFooter .footerLinks li a {
+	color: #FF3F4A;
+	text-decoration: none;
+}
+
+#divFooter .footerLinks li {
+	padding-bottom: 8px;
+	border-bottom: solid 1px rgba(255,255,255,.1);
+}
+
+#divFooter div ul li {
+	font-size: 17px;
+	margin-bottom: 12px;
+}
+
+#divFooter div ul {
+	list-style-type: none;
+}
+
+#divFooter div h3 {
+	font-size: 22px;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+
+
+#divFooterWrap {
+	background-color: #27282E;
+	color: #FFFFFF;
+}
