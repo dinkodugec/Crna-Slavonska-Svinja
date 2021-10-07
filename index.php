@@ -58,7 +58,7 @@
 						</ul>
 					</li>
 					<li><a href="#">Partneri</a></li>
-					<li><a href="#">O Udruzi</a></li>
+					<li><a href="oudruzi.html">O Udruzi</a></li>
 					<li><a href="#">Kontakt</a></li>
 				</ul>
 			</div>
