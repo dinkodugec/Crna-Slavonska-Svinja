@@ -62,12 +62,12 @@ body {
 	font-weight: bold;
 }
 .mainMenu1 li a:hover {
-	background-color: #21460d;
+	background-color: #222420;
 }
 .mainMenu1 li ul {
 	position: absolute;
 	top: 88px;
-	background-color: #21460d;
+	background-color:  #222420;
 	display: none;
 }
 .mainMenu1 li:hover ul {

@@ -85,7 +85,7 @@
 				</li>
 				<li class="gridCol3 listBoxStyle1Featured">
 					<h2>Način uzgoja i prehrana Crne Slavonske Svinje</h2>
-					<a href="file:///C:/Users/pc/AppData/Local/Temp/2010_4_Crna_slavonska_svinja-2.pdf">Više</a>
+					<a href="https://repozitorij.fazos.hr/islandora/object/pfos%3A574/datastream/PDF/view">Više</a>
 				</li>
 				<li class="gridCol3 gridLastItem">
 					<h2>MESO CRNE SLAVONSKE SVINJE </h2>
@@ -137,21 +137,21 @@
 	<div id="divContentVijestWrap">
 		<div class="divBoxVijest">
    	       <div class="divVijestButtons">
-   	       	<a href="nasiproizvodi.html">Pročitajte</a>
+   	       	<a href="http://fajferica.hr/wp-content/uploads/2019/09/Lukic_i_sur_Prirucnik_uzgoj_crne_svinje_web.pdf">Pročitajte</a>
 			<h6>Udruga izdala "Priručnik za uzgajivače crne slavonske svinje"</h6>	
 		  </div>
    	     </div> 
    	     	
    	     <div class="divBoxVijest">
    	    	 <div class="divVijestButtons">
-   	    	 	<a href="nasiproizvodi.html">Pročitajte</a>
+   	    	 	<a href="http://fajferica.hr/zastita-izvornosti-mesa-crne-slavonske-svinje/">Pročitajte</a>
 		         <h6>Zaštita izvornosti mesa Crne Slavonske Svinje</h6>
 		     </div>
    	  	 </div>
    	  	
    	  	 <div class="divBoxVijest lastItem">
    	  	    <div class="divVijestButtons">
-				 <a href="nasiproizvodi.html">Pročitajte</a>
+				 <a href="http://fajferica.hr/odrzan-prvi-fajferica-gastro-show/">Pročitajte</a>
             	 <div class="divNaslov">
                       <h6>Održan prvi "Fajferica Gastro Show"</h6>
 
@@ -189,10 +189,10 @@
 			<div class="gridCol4">
 				<h3>Važne Povezice</h3>
 				<ul class="footerLinks">
-					<li><a href="#">Hrvatska agencija za poljoprivredu i hranu</a></li>
-					<li><a href="#">Ministarstvo poljoprivrede1</a></li>
-					<li><a href="#">Program Ruralnog Razvoja</a></li>
-					<li><a href="#">Fakultet agrobitehničkih znanosti Osijek</a></li>
+					<li><a href="https://www.hapih.hr/en/">Hrvatska agencija za poljoprivredu i hranu</a></li>
+					<li><a href="https://poljoprivreda.gov.hr/">Ministarstvo poljoprivrede1</a></li>
+					<li><a href="https://ruralnirazvoj.hr/program/">Program Ruralnog Razvoja</a></li>
+					<li><a href="http://www.fazos.unios.hr/">Fakultet agrobitehničkih znanosti Osijek</a></li>
 					<!-- <li><a href="#">Stavka podnožja 1</a></li>
 					<li><a href="#">Stavka podnožja 1</a></li> -->
 				</ul>
