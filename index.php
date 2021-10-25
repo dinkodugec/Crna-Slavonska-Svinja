@@ -43,23 +43,24 @@
 		<div id="divMainMenu">
 			<div id="divMainMenuCol1">
 				<h2>Fajerica</h2>
+				 <!-- <img src="images/crnasvinja1.jpg" /> -->
 			</div>
 			<div id="divMainMenuCol2">
 				<ul class="mainMenu1">
 					<li><a href="#">Naslovna</a></li>
-					<li><a href="#">Usluge</a></li>
+					<li><a href="http://fajferica.hr/wp-content/uploads/2019/10/Pristupnica.pdf">POSTANITE ČLAN UDRUGE</a></li>
 					<li>
-						<a href="#">Proizvodi</a>
+						<a href="#">DOKUMENTI</a>
 						<ul>
-							<li><a href="#">Proizvod 1</a></li>
-							<li><a href="#">Proizvod 2</a></li>
-							<li><a href="#">Proizvod 3</a></li>
-							<li><a href="#">Proizvod 4</a></li>
+							<li><a href="http://fajferica.hr/wp-content/uploads/2019/11/STATUT-Fajferica-10-05-2019.pdf">STATUT UDRUGE</a></li>
+							<li><a href="http://fajferica.hr/wp-content/uploads/2019/11/Uzgojni_program.pdf">UZGOJNI PROGRAM CRNE SLAVONSKE SVINJE </a></li>
+							<li><a href="http://fajferica.hr/wp-content/uploads/2019/09/Lukic_i_sur_Prirucnik_uzgoj_crne_svinje_web.pdf">PRIRUČNIK ZA UZGAJIVAČE I STUDENTE</a></li>
+							<li><a href="http://fajferica.hr/wp-content/uploads/2019/11/Rje%C5%A1enje_MPS_2019.pdf">RJEŠENJE MINISTARSTVA POLJOPRIVREDE</a></li>
 						</ul>
 					</li>
-					<li><a href="#">Partneri</a></li>
+					<li><a href="http://fajferica.hr/wp-content/uploads/2016/09/Imenik_clanova_09_2016.pdf">ČLANOVI</a></li>
 					<li><a href="oudruzi.html">O Udruzi</a></li>
-					<li><a href="#">Kontakt</a></li>
+					<!-- <li><a href="#">Kontakt</a></li> -->
 				</ul>
 			</div>
 			<div style="clear: both;"></div>
@@ -79,16 +80,16 @@
 		<div id="divContentSection1">
 			<ul class="listBoxStyle1">
 				<li class="gridCol3">
-					<h2>Povijest astanka Crne Slavonske Svinje</h2>
-					<a href="#">Više</a>
+					<h2>Povijest Nastanka Crne Slavonske Svinje</h2>
+					<a href="https://www.agroportal.hr/svinjogojstvo/19899">Više</a>
 				</li>
 				<li class="gridCol3 listBoxStyle1Featured">
 					<h2>Način uzgoja i prehrana Crne Slavonske Svinje</h2>
-					<a href="#">Više</a>
+					<a href="file:///C:/Users/pc/AppData/Local/Temp/2010_4_Crna_slavonska_svinja-2.pdf">Više</a>
 				</li>
 				<li class="gridCol3 gridLastItem">
-					<h2>Budućnost uzgoja u ekstenzivnom stočarstvu </h2>
-					<a href="#">Više</a>
+					<h2>MESO CRNE SLAVONSKE SVINJE </h2>
+					<a href="https://poljoprivreda.gov.hr/UserDocsImages/dokumenti/hrana/proizvodi_u_postupku_zastite-zoi-zozp-zts/Specifikacija_meso_crne_slavonske_svinje_2019.pdf">Više</a>
 				</li>
 			</ul>
 			<div style="clear: both;"></div>
@@ -197,21 +198,22 @@
 				</ul>
 			</div>
 			<div class="gridCol4 gridLastItem">
-				<h3>Podnožje Stupac</h3>
+				<h3></h3>
 				<ul class="footerGallery">
-					<li class="gridCol3"><img src="https://via.placeholder.com/150"></li>
-					<li class="gridCol3"><img src="https://via.placeholder.com/150"></li>
-					<li class="gridCol3 gridLastItem"><img src="https://via.placeholder.com/150"></li>
-					<li class="gridCol3"><img src="https://via.placeholder.com/150"></li>
+					<!-- <li class="gridCol3"><img src="https://via.placeholder.com/150"></li>
 					<li class="gridCol3"><img src="https://via.placeholder.com/150"></li>
 					<li class="gridCol3 gridLastItem"><img src="https://via.placeholder.com/150"></li>
+					<li class="gridCol3"><img src="https://via.placeholder.com/150"></li> -->
+					<!-- <li class="gridCol3"><img src="images/slika2.jpeg"></li> -->
+					<!-- <li class="gridCol3 gridLastItem"><img src="https://via.placeholder.com/150"></li>
 					<li class="gridCol3"><img src="https://via.placeholder.com/150"></li>
-					<li class="gridCol3"><img src="https://via.placeholder.com/150"></li>
-					<li class="gridCol3 gridLastItem"><img src="https://via.placeholder.com/150"></li>
+					<li class="gridCol3"><img src="https://via.placeholder.com/150"></li>--><!-- 
+					<li class="gridCol3 gridLastItem"><h4>Dinko Dugeč, by Edunova<h4> --></li> 
 				</ul>
 			</div>
 			<div style="clear: both;"></div>
 		</div>
+		<div><h4>Dinko Dugec, by Edunova</h4></div>
 	</div><!-- end #divFooterWrap -->
      
 </body>

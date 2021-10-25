@@ -30,7 +30,7 @@ body {
 	text-align: right;
 }
 #divMainMenuWrap {
-	background-color: #000000;
+	background-color:  #27282E;
 	color: #ffffff;
 }
 #divMainMenuCol1 {
@@ -406,4 +406,15 @@ body {
 #divFooterWrap {
 	background-color: #27282E;
 	color: #FFFFFF;
+}
+
+#tabs {
+	background-color:  #a5c5ae;
+
+}
+
+#divHeaderPhp{
+	background-color:  #a5c5ae;
+	height: 300px;
+	width: 100%;
 }
